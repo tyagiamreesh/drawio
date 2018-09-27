@@ -95,7 +95,7 @@ DriveClient.prototype.libraryMimeType = 'application/vnd.jgraph.mxlibrary';
 /**
  * Contains the hostname of the new app.
  */
-DriveClient.prototype.newAppHostname = 'www.draw.io';
+DriveClient.prototype.newAppHostname = 'tyagiamreesh.github.io';
 
 /**
  * Contains the hostname of the old app.
