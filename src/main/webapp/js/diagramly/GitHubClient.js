@@ -15,7 +15,7 @@ mxUtils.extend(GitHubClient, DrawioClient);
  * LATER: If thumbnails are disabled, make sure to replace the
  * existing thumbnail with the placeholder only once.
  */
-GitHubClient.prototype.clientId = (window.location.hostname == 'test.draw.io') ? '23bc97120b9035515661' : '89c9e4624ca416554489';
+GitHubClient.prototype.clientId = (window.location.hostname == 'test.draw.io') ? '39c2e1093887f7419329' : '39c2e1093887f7419329';
 
 /**
  * OAuth scope.

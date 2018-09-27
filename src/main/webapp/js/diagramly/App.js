@@ -154,7 +154,7 @@ App.MODE_TRELLO = 'trello';
 /**
  * Sets the delay for autosave in milliseconds. Default is 2000.
  */
-App.DROPBOX_APPKEY = 'libwls2fa9szdji';
+App.DROPBOX_APPKEY = 'tyagiamreesh-no-support-dropbox';
 
 /**
  * Sets URL to load the Dropbox SDK from
