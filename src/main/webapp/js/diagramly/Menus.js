@@ -62,7 +62,7 @@
 				isLocalStorage && (document.documentMode == null || document.documentMode >= 10);
 		var dropboxEnabled = ((urlParams['embed'] != '1' && urlParams['db'] != '0') || (urlParams['embed'] == '1' && urlParams['db'] == '1')) &&
 			mxClient.IS_SVG && (document.documentMode == null || document.documentMode > 9);
-		var oneDriveEnabled = (window.location.hostname == 'www.draw.io' || window.location.hostname == 'test.draw.io' ||
+		var oneDriveEnabled = (window.location.hostname == 'tyagiamreesh.github.io' || window.location.hostname == 'www.draw.io' || window.location.hostname == 'test.draw.io' ||
 				window.location.hostname == 'drive.draw.io' || window.location.hostname == 'legacy.draw.io') &&
 				(((urlParams['embed'] != '1' && urlParams['od'] != '0') || (urlParams['embed'] == '1' &&
 				urlParams['od'] == '1')) && !navigator.userAgent.match(/(iPad|iPhone|iPod)/g) &&
