@@ -32,8 +32,9 @@ DriveClient = function(editorUi)
 	{
 		// Uses a different mime-type and realtime model than the drive domain
 		// because realtime models for different app IDs are not compatible
-		this.appId = '420247213240';
-		this.clientId = '420247213240-hnbju1pt13seqrc1hhd5htpotk4g9q7u.apps.googleusercontent.com';
+		//TODO: Replace it with proper Google Oauth client
+		this.appId = '287546061632';
+		this.clientId = '287546061632-6npr59u322lbl478s8kundogivatug4m.apps.googleusercontent.com';
 		this.mimeType = 'application/vnd.jgraph.mxfile.rtlegacy';
 	}
 	
