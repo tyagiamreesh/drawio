@@ -700,7 +700,7 @@ DriveClient.prototype.getFile = function(id, success, error, readXml, readLibrar
 DriveClient.prototype.loadRealtime = function(resp, success, error)
 {
 	// Redirects to new app because the realtime models of different apps are not visible
-	if (urlParams['ignoremime'] != '1' && this.appId == '420247213240' &&
+	if (urlParams['ignoremime'] != '1' && this.appId == '287546061632' &&
 		(resp.mimeType == 'application/vnd.jgraph.mxfile.realtime' ||
 		resp.mimeType == 'application/mxr'))
 	{
