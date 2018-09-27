@@ -907,7 +907,7 @@ App.prototype.init = function()
 					/**
 					 * Adds important notice for new app if drive file is loaded in old app.
 					 */
-					if (this.drive.appId == '420247213240')
+					if (this.drive.appId == '287546061632')
 					{
 						this.editor.addListener('fileLoaded', mxUtils.bind(this, function()
 						{
