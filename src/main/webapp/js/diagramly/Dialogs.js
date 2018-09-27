@@ -272,15 +272,15 @@ var StorageDialog = function(editorUi, fn, rowLimit)
 	mxUtils.write(hd, mxResources.get('saveDiagramsTo') + ':');
 	div.appendChild(hd);
 	
-	if (typeof window.DriveClient === 'function')
-	{
-		addLogo(IMAGE_PATH + '/google-drive-logo.svg', mxResources.get('googleDrive'), App.MODE_GOOGLE, 'drive');
-	}
+// 	if (typeof window.DriveClient === 'function')
+// 	{
+// 		addLogo(IMAGE_PATH + '/google-drive-logo.svg', mxResources.get('googleDrive'), App.MODE_GOOGLE, 'drive');
+// 	}
 
-	if (typeof window.OneDriveClient === 'function')
-	{
-		addLogo(IMAGE_PATH + '/onedrive-logo.svg', mxResources.get('oneDrive'), App.MODE_ONEDRIVE, 'oneDrive');
-	}
+// 	if (typeof window.OneDriveClient === 'function')
+// 	{
+// 		addLogo(IMAGE_PATH + '/onedrive-logo.svg', mxResources.get('oneDrive'), App.MODE_ONEDRIVE, 'oneDrive');
+// 	}
 
 	if (!mxClient.IS_IOS || urlParams['storage'] == 'device')
 	{
